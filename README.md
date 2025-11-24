@@ -3,7 +3,7 @@ SOC Analyst Homelab — Wazuh SIEM: Brute-Force RDP Attack Detection + Custom Ru
 
 # Wazuh SOC Homelab — Brute-Force Attack + Custom Rules + FIM
 
-![Brute Force Attack Simulation](screenshots/run%20bruteforce%20attack.png)
+![Brute Force Attack Simulation](run%20bruteforce%20attack.png)
 
 **Real-world SOC Analyst project**: Simulated RDP brute-force attack from Kali → Windows 11 → Detected & alerted using **custom Wazuh correlation rules** + File Integrity Monitoring (FIM).
 
@@ -24,20 +24,20 @@ SOC Analyst Homelab — Wazuh SIEM: Brute-Force RDP Attack Detection + Custom Ru
 
 ### Attack & Detection Flow
 1. **Enabled RDP + allowed through firewall**  
-   ![Firewall Rule](screenshots/make%20sure%20firewall%20allow%20rdp.png)
+   ![Firewall Rule](make%20sure%20firewall%20allow%20rdp.png)
 
 2. **Created custom password list**  
-   ![Wordlist](screenshots/unzip%20and%20check%20wordlist%20for%20hydra.png)
+   ![Wordlist](unzip%20and%20check%20wordlist%20for%20hydra.png)
 
 3. **Launched Hydra brute-force attack**  
-   ![Hydra Running](screenshots/run%20bruteforce%20attack.png)  
-   ![3 Failed Attempts](screenshots/found%203%20failed%20login%20attempts.png)
+   ![Hydra Running](run%20bruteforce%20attack.png)  
+   ![3 Failed Attempts](found%203%20failed%20login%20attempts.png)
 
 4. **Custom rule triggered in Wazuh**  
-   ![Custom Rule Alert](screenshots/created%20custom%20rules%20for%20one%20failed%20login%20attempts%20and%20b.png)
+   ![Custom Rule Alert](created%20custom%20rules%20for%20one%20failed%20login%20attempts%20and%20b.png)
 
 5. **FIM detected file change**  
-   ![FIM Alert](screenshots/capture%20the%20failed%20login%20on%20wazuh%20dashboard.png)
+   ![FIM Alert](capture%20the%20failed%20login%20on%20wazuh%20dashboard.png)
 
 ### Skills Demonstrated (Tier-1 SOC Analyst Level)
 - Log collection & parsing (Event ID 4625)
