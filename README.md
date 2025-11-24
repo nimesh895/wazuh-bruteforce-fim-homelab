@@ -61,7 +61,7 @@ SOC Analyst Homelab — Wazuh SIEM: Brute-Force RDP Attack Detection + Custom Ru
 - Sysmon + custom Wazuh decoders
 
 ---
-**Original Documentation**: [brute force simulation homelab.pdf](brute%20force%20simulation%20.pdf)
+**Original Documentation**: [brute force simulation homelab.pdf](brute%20force%20simulation.pdf)
 
 **Author**: Nimesh Akalanka Peiris  
 **LinkedIn**: [linkedin.com/in/nimesh23](https://www.linkedin.com/in/nimesh23)  
