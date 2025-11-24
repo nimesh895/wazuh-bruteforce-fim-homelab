@@ -34,7 +34,7 @@ SOC Analyst Homelab — Wazuh SIEM: Brute-Force RDP Attack Detection + Custom Ru
    ![3 Failed Attempts](found%203%20failed%20login%20attempts.png)
 
 4. **Custom rule triggered in Wazuh**  
-   ![Custom Rule Alert](created%20custom%20rules%20for%20one%20failed%20login%20attempts%20and%20b.png)
+   ![Custom Rule Alert](create%20custom%20rules%20for%20one%20failed%20login%20attempts%20and%20b.png)
 
 5. **FIM detected file change**  
    ![FIM Alert](capture%20the%20failed%20login%20on%20wazuh%20dashboard.png)
